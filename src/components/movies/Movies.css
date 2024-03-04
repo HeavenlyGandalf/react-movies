@@ -1,0 +1,8 @@
+.movies{
+	display:grid;
+	justify-content: center;
+	grid-template-columns: repeat( auto-fit,277px);
+	gap: 1rem;  
+	padding: 10px;  
+	transition: all 0.4s ease-in-out;
+}

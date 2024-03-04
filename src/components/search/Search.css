@@ -1,0 +1,67 @@
+.search {
+  margin: 15px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  border: 0px;
+  border-bottom: 1px solid black;
+  width: calc(100% - 140px);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.button {
+  margin-left: 10px;
+  text-transform: uppercase;
+  background: linear-gradient(#4169e1, 67%, #87ceeb);
+  color: white;
+  border-radius: 20px;
+  height: 35px;
+  width: 80px;
+  border: 0px;
+}
+
+.button:active {
+  background: linear-gradient(#2a4e84 43%, #5cacee);
+}
+
+.wrapper {
+  display: inline-flex;
+  background: #ffffff;
+  height: 50px;
+  width: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 15px;
+}
+
+.wrapper .option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  cursor: pointer;
+  padding: 0 5px;
+  border-radius: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: linear-gradient(#4169e1 43%, #87ceeb);
+  border-radius: 20px;
+  height: 35px;
+  width: 75px;
+  border: 0px;
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+
+
+input[type="radio"]:checked + .option {
+  background: linear-gradient(#0a60e1 43%, #005697);
+}
